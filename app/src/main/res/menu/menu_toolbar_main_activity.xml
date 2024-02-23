@@ -3,20 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menuItem_calendar"
+        android:id="@+id/menuItem_calendar_mainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:title="달력"
         android:visible="true"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/menuItem_all_memo"
+        android:id="@+id/menuItem_memoList_mainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:title="전체"
         android:visible="false"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/menuItem_add_mainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:title="추가"
