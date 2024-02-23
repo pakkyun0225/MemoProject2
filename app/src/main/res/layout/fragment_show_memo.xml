@@ -27,10 +27,10 @@
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTitle_addMemoActivity"
+            android:id="@+id/editTextTitle_showMemoActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:editable="true"
+            android:editable="false"
             android:inputType="text"
             android:singleLine="true"
             android:textAlignment="viewStart" />
@@ -51,7 +51,7 @@
             app:endIconMode="clear_text">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editTextContent_addMemoActivity"
+                android:id="@+id/editTextContent_showMemoActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:editable="true"
